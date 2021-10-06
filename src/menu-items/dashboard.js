@@ -8,7 +8,6 @@ const icons = {
 };
 
 //DASHBOARD MENU ITEMS//
-//pogiako//
 const dashboard = {
     id: 'dashboard',
     title: 'Dashboard',
