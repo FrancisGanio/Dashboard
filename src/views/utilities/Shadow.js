@@ -37,7 +37,7 @@ ShadowBox.propTypes = {
     shadow: PropTypes.string.isRequired
 };
 
-//= ===========================|| Monitoring||============================//
+//= ===========================|| Monitorings||============================//
 
 const UtilitiesShadow = () => (
     <MainCard title="Monitoring" >
