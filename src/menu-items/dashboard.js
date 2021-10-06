@@ -7,7 +7,7 @@ const icons = {
     IconDeviceAnalytics
 };
 
-// AAAAAA===========================|| DASHBOARD MENU ITEMS ||=========================== //
+//DASHBOARD MENU ITEMS//
 
 const dashboard = {
     id: 'dashboard',

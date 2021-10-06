@@ -11,7 +11,7 @@ const icons = {
     IconLayoutGridAdd
 };
 
-// ===========================|| UTILITIES MENU ITEMS ||=========================== //
+//UTILITIES MENU ITEMS//
 
 const utilities = {
     id: 'utilities',

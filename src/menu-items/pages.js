@@ -10,7 +10,7 @@ const icons = {
     IconPhoneCall
 };
 
-// ===========================|| EXTRA PAGES MENU ITEMS ||=========================== //
+//EXTRA PAGES MENU ITEMS//
 
 const pages = {
     id: 'pages',

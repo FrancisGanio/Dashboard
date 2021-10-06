@@ -8,7 +8,7 @@ const icons = {
     IconSitemap
 };
 
-// ===========================|| SAMPLE PAGE & DOCUMENTATION MENU ITEMS ||=========================== //
+//SAMPLE PAGE & DOCUMENTATION MENU ITEMS//
 
 const other = {
     id: 'sample-docs-roadmap',
