@@ -47,6 +47,7 @@ const utilities = {
             title: 'Logout',
             type: 'item',
             icon: icons.IconWindmill,
+           //logout purposes//
             breadcrumbs: false
         }
     ]
