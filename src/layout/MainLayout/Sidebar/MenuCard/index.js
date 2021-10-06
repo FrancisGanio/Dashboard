@@ -53,42 +53,4 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-// ===========================|| PROFILE MENU - UPGRADE PLAN CARD ||=========================== //
-
-const UpgradePlanCard = () => {
-    const classes = useStyles();
-
-    return (
-        <Card className={classes.card}>
-            <CardContent>
-                <Grid container direction="column" spacing={2}>
-                    <Grid item>
-                        <Typography variant="h4">Upgrade to Pro</Typography>
-                    </Grid>
-                    <Grid item>
-                        <Typography variant="subtitle2" className={classes.tagLine}>
-                            For more premium pages & features
-                        </Typography>
-                    </Grid>
-                    <Grid item>
-                        <Stack direction="row">
-                            <AnimateButton>
-                                <Button
-                                    component={Link}
-                                    href="https://berrydashboard.io/"
-                                    target="_blank"
-                                    variant="contained"
-                                    className={classes.button}
-                                >
-                                    Go Premium
-                                </Button>
-                            </AnimateButton>
-                        </Stack>
-                    </Grid>
-                </Grid>
-            </CardContent>
-        </Card>
-    );
-};
-
 export default UpgradePlanCard;
