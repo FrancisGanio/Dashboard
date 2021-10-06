@@ -20,7 +20,7 @@ const utilities = {
     children: [
         {
             id: 'util-typography',
-            title: 'Typography',
+            title: 'Products',
             type: 'item',
             url: '/utils/util-typography',
             icon: icons.IconTypography,
@@ -28,7 +28,7 @@ const utilities = {
         },
         {
             id: 'util-color',
-            title: 'Color',
+            title: 'Archive',
             type: 'item',
             url: '/utils/util-color',
             icon: icons.IconPalette,
@@ -36,7 +36,7 @@ const utilities = {
         },
         {
             id: 'util-shadow',
-            title: 'Shadow',
+            title: 'Monitoring',
             type: 'item',
             url: '/utils/util-shadow',
             icon: icons.IconShadow,
@@ -44,25 +44,10 @@ const utilities = {
         },
         {
             id: 'icons',
-            title: 'Icons',
-            type: 'collapse',
+            title: 'Logout',
+            type: 'item',
             icon: icons.IconWindmill,
-            children: [
-                {
-                    id: 'tabler-icons',
-                    title: 'Tabler Icons',
-                    type: 'item',
-                    url: '/icons/tabler-icons',
-                    breadcrumbs: false
-                },
-                {
-                    id: 'material-icons',
-                    title: 'Material Icons',
-                    type: 'item',
-                    url: '/icons/material-icons',
-                    breadcrumbs: false
-                }
-            ]
+            breadcrumbs: false
         }
     ]
 };
